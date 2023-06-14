@@ -1,1 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="Stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Title</h1>
+        <p id="description">Description</p>
+        <form id="survey-form" action="" method="post">
+            
+            <label id="name-label" for="name">Name: <input type="text" id="name" required placeholder="Enter your name here"></label>
+            <label id="email-label" for="email">Email: <input type="email" id="email" required placeholder="Enter your email here"></label>
+            <label id="number-label" for="number">Age(Optional): <input type="number" id="number" placeholder="Enter your age here" min=18 max=150></label>
+
+            <legend>Choose your sex: </legend>
+            <label class="inline radio" for="male"><input id="male" type="radio" name="sex" value="male"> Male</label><label class="inline radio" for="female"><input id="female" type="radio" name="sex" value="female"> Female</label><label class="inline radio" for="others"><input id="others" type="radio" name="sex" value="others"> Others</label>
+
+            <label for="dropdown">Choose your department: 
+                <select id="dropdown">
+                    <option>Select one</option>
+                    <option>Computer Science & Engineering</option>
+                    <option>Information Technology</option>
+                    <option>Electronics & Communication Engineering</option>
+                    <option>Electrical Engineering</option>
+                </select>
+            </label>
+
+            <label for="about">Tell us about yourself: 
+                <textarea id="about" rows="5" cols="84" ></textarea>
+            </label>
+
+            <label ><input type="checkbox" required value="2"> I accept the terms and Conditions.</checkbox></label>
+            <label ><input type="checkbox" required value="1"> I read the terms and Conditions.</checkbox></label>
+
+            <input id="submit" type="submit" value="Submit  ">
+        </form>
+    </body>
+</html>

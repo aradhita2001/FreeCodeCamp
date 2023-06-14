@@ -1,0 +1,56 @@
+label, legend {
+    display: block;
+    margin : 10px auto 0;
+
+}
+
+body{
+    width: 60vw;
+    min-width: 300px;
+    max-width:  800px;
+    margin: 0 auto;
+    
+}
+
+h1, p {
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    margin: 10px auto 0; 
+    text-align: center;
+}
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px auto 0;
+    width: 80%;
+}
+
+input {
+    width: 100%;
+    margin: 10px auto 0;
+    padding: 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.radio {
+    min-width: 33%;
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    display: block;
+    margin: 10px auto 0;
+}
+input[type="submit"] {
+    width: 100px;
+    margin-bottom: 10px;
+    display:  block;
+}
